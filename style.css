@@ -1,0 +1,19 @@
+.nomeTitulo{
+    font-family:'Quicksand' cursive;
+    font-weight: 550;
+    color:#094891;
+    font-size: 30px;       
+}
+.descricaoTipo{
+    font-style: italic;
+    font-size: 0.9em;
+}
+body {
+    background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+}
+a {
+    color:#278086;
+}
+h4 {
+    color:#072525;
+}
