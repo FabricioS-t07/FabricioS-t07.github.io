@@ -1,25 +1,25 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #8fb3ca, #56a75a);
+    background-color: #f5f1e1;
     width: 100%;
     height: 100%;
 }
 .nomeTitulo{
     font-family: 'Raleway', sans-serif;
     font-weight: 650;
-    color:#094891;
+    color:#ffffff;
     font-size: 30px;       
 }
 .descricaoTipo{
     font-family: 'Raleway', sans-serif;
     font-style: italic;
-    font-weight: 150;
+    font-weight: 500;
     font-size: 0.8em;
-    color:#094891;
+    color:#08366b;
 }
 .bigLetter{                 
-    font-style: oblique;
+    font-weight: 600;
     font-size: 1.5em;
 }
 .bigItalicLetter{
@@ -27,7 +27,7 @@ html, body {
     font-size: 1.3em;
 }
 .picture {
-    border-radius: 5%;
+    border-radius: 20%;
     width: 100px;
 }
 .white {
@@ -35,4 +35,19 @@ html, body {
 }
 a {
     color:#3d1fa8;
+}
+header {
+    border-radius: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 650;
+    color:#094891;
+    font-size: 30px;
+    background: linear-gradient(to bottom, #8fca9c, #0b9b12);
+}
+footer{
+    border-radius: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 650;
+    color:#d4d6d8;
+    background: linear-gradient(to bottom, #8fca9c, #0b9b12);
 }
