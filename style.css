@@ -1,19 +1,32 @@
 .nomeTitulo{
-    font-family:'Quicksand' cursive;
-    font-weight: 550;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 650;
     color:#094891;
     font-size: 30px;       
 }
 .descricaoTipo{
+    font-family: 'Raleway', sans-serif;
     font-style: italic;
-    font-size: 0.9em;
+    font-weight: 150;
+    font-size: 0.8em;
+    color:#094891;
 }
+.bigLetter{                 
+    font-style: oblique;
+    font-size: 1.5em;
+}
+.bigItalicLetter{
+    font-style: italic;
+    font-size: 1.3em;
+}
+.picture {
+    border-radius: 5%;
+    width: 100px;
+  }
 body {
-    background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to bottom, #8fb3ca, #56a75a);
 }
 a {
-    color:#278086;
-}
-h4 {
-    color:#072525;
+    color:#3d1fa8;
 }
