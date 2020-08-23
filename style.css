@@ -1,22 +1,22 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: #f5f1e1;
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    color:#08126b;
     width: 100%;
     height: 100%;
+    font-size: 15px;
+    margin: 5px;
+    padding: 0px;
+    background: linear-gradient(to bottom, #ffffff, #c2e0fc), #c2e0fc;
 }
 .nomeTitulo{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 650;
-    color:#ffffff;
+    font-weight: 450;
     font-size: 30px;       
 }
 .descricaoTipo{
-    font-family: 'Raleway', sans-serif;
     font-style: italic;
-    font-weight: 500;
-    font-size: 0.8em;
-    color:#08366b;
+    font-weight: 300;
+    font-size: 0.7em;
 }
 .bigLetter{                 
     font-weight: 600;
@@ -27,27 +27,41 @@ html, body {
     font-size: 1.3em;
 }
 .picture {
+    box-shadow: 0px 2px 6px 0 #000000;
     border-radius: 20%;
     width: 100px;
 }
-.white {
-    background-color: white;
+.button{
+    border: 1px solid #3d1fa8;
+    border-radius: 4px;
+    background-color: #748dfd;
+    color:#78879b;
+    text-align: center;
+    padding: 4px 12px;
+}
+.buttonHover:hover{
+    background-color: #ced2ec;
+    transition-duration: 1s;
+}
+p, li{
+
+    font-size: 15px;
+    color: #08126b;
 }
 a {
+    text-decoration: none;
     color:#3d1fa8;
 }
 header {
-    border-radius: 5%;
-    font-family: 'Raleway', sans-serif;
+    border-radius: 0;
     font-weight: 650;
-    color:#094891;
+    color:#ffffff;
     font-size: 30px;
-    background: linear-gradient(to bottom, #8fca9c, #0b9b12);
+    background: linear-gradient(to bottom, #b3bbec, #0b199b);
 }
 footer{
-    border-radius: 5%;
-    font-family: 'Raleway', sans-serif;
+    border-radius: 0;
     font-weight: 650;
-    color:#d4d6d8;
-    background: linear-gradient(to bottom, #8fca9c, #0b9b12);
+    color:#ffffff;
+    background: linear-gradient(to bottom, #0b0d9b, #b3bbec);
 }
