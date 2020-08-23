@@ -14,7 +14,7 @@ body {
 .descricaoTipo{
     font-style: italic;
     font-weight: 300;
-    font-size: 0.7em;
+    font-size: 0.8em;
     color:#08126b;
 }
 .bigLetter{                 
@@ -41,15 +41,15 @@ a {
     color:#3d1fa8;
 }
 header {
-    border-radius: 5%;
+    border-radius: 0%;
     font-weight: 650;
     color:#094891;
     font-size: 30px;
-    background: linear-gradient(to bottom, #8fca9c, #0b9b12);
+    background: linear-gradient(to bottom, #8f98ca, #0b199b);
 }
 footer{
-    border-radius: 5%;
+    border-radius: 0%;
     font-weight: 650;
     color:#d4d6d8;
-    background: linear-gradient(to bottom, #8fca9c, #0b9b12);
+    background: linear-gradient(to bottom, #8f9aca, #0b0d9b);
 }
