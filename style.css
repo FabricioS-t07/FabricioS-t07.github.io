@@ -1,20 +1,21 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f1e1;
+    font-size: 15px;
+    margin: 5px;
+    padding: 0px;
+    background-color: linear-gradient(to bottom, #8f98ca, #0b199b), #f5f1e1;
     width: 100%;
     height: 100%;
 }
 .nomeTitulo{
-    font-weight: 650;
+    font-weight: 450;
     color:#ffffff;
     font-size: 30px;       
 }
 .descricaoTipo{
     font-style: italic;
     font-weight: 300;
-    font-size: 0.8em;
+    font-size: 0.7em;
     color:#08126b;
 }
 .bigLetter{                 
@@ -26,11 +27,25 @@ body {
     font-size: 1.3em;
 }
 .picture {
+    box-shadow: 0px 2px 6px 0 #000000;
+    border: 1px solid black;
     border-radius: 20%;
     width: 100px;
 }
 .white {
     background-color: white;
+}
+.button{
+    border: 1px solid #3d1fa8;
+    border-radius: 4px;
+    background-color: #748dfd;
+    color:#78879b;
+    text-align: center;
+    padding: 10px 20px;
+}
+.buttonVoltar:hover{
+    background-color: #ced2ec;
+    transition-duration: 1s;
 }
 p, li{
 
