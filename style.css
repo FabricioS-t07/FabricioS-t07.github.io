@@ -9,7 +9,7 @@ body {
     background: linear-gradient(to bottom, #ffffff, #c2e0fc), #c2e0fc;
 }
 .nomeTitulo{
-    text-align: left;
+    text-align: center;
     font-weight: 450;
     font-size: 30px;       
 }
@@ -26,7 +26,10 @@ body {
     font-style: italic;
     font-size: 1.3em;
 }
+
 .picture {
+    margin: 3px;
+    float:left;
     box-shadow: 0px 2px 6px 0 #000000;
     border-radius: 20%;
     width: 100px;
@@ -44,9 +47,13 @@ body {
     transition-duration: 1s;
 }
 p, li{
-
     font-size: 15px;
     color: #08126b;
+}
+.containerTop{
+    text-align: ;
+    height: 300px;
+    background-color: #6a74ac;
 }
 .containerSkillList{
     margin: left;
