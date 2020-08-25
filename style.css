@@ -1,19 +1,21 @@
 body {
-
     font-family: 'Open Sans', sans-serif;
     color:#08126b;
     width: 100%;
     height: 100%;
     font-size: 15px;
-    margin: 5px;
+    margin: 10px;
     padding: 0px;
     background: linear-gradient(to bottom, #ffffff, #c2e0fc), #c2e0fc;
 }
 .nomeTitulo{
+    text-align: center;
     font-weight: 450;
     font-size: 30px;       
 }
 .descricaoTipo{
+    position: relative;
+    top: 100px;
     font-style: italic;
     font-weight: 300;
     font-size: 0.7em;
@@ -26,11 +28,17 @@ body {
     font-style: italic;
     font-size: 1.3em;
 }
+
 .picture {
+    padding: 20px;
+    background-color: #ffffff;
+    position: relative;
+    margin: 15px;
+    float:left;
     box-shadow: 0px 2px 6px 0 #000000;
-    border-radius: 20%;
-    width: 100px;
-}
+    border-radius: 10%;
+    width: 80px;
+   }
 .button{
     border: 1px solid #3d1fa8;
     border-radius: 4px;
@@ -40,28 +48,55 @@ body {
     padding: 4px 12px;
 }
 .buttonHover:hover{
-    background-color: #ced2ec;
+    background-color: #616161;
     transition-duration: 1s;
 }
 p, li{
-
     font-size: 15px;
     color: #08126b;
 }
+.boxTop{
+    height: 300px;
+    background-color: #becdff;
+}
+.containerSkillList{
+    margin: left;
+    background: #ffffff;
+   }
+.containerSkillList li{
+    text-align: left;
+    line-height: 3em;
+    margin: 15px 10px;
+}
+.boxCenter{
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(to bottom, #c3f1ff, #a2abff);
+    width: 60%;
+    height:700px;
+    margin-bottom: 1%;
+}
 a {
     text-decoration: none;
-    color:#3d1fa8;
+    color:#ffffff;
 }
 header {
+    margin-bottom: 1%;
     border-radius: 0;
-    font-weight: 650;
+    font-weight: 550;
     color:#ffffff;
     font-size: 30px;
     background: linear-gradient(to bottom, #b3bbec, #0b199b);
 }
 footer{
+    margin-top: 1%;
     border-radius: 0;
-    font-weight: 650;
+    font-weight: 250;
     color:#ffffff;
+    font-size: 30px;
     background: linear-gradient(to bottom, #0b0d9b, #b3bbec);
+}
+#elementoImpar li:nth-child(2n+1){
+    font-style:italic;
+    font-size: 1.2em;
 }
