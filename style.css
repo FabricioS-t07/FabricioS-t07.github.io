@@ -14,14 +14,23 @@ body {
     font-size: 30px;       
 }
 .descricaoTipo{
+    font-family: 'Indie Flower', cursive;
     position: relative;
     top: 100px;
     font-style: italic;
     font-weight: 300;
-    font-size: 0.7em;
+    font-size: 0.9em;
+}
+.boxDescricao{
+    text-align: left;
+    width: 30%;
+}
+.descricaoHover:hover{
+    font-size: 2em;
+    transition-duration: 1s;
 }
 .bigLetter{                 
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.5em;
 }
 .bigItalicLetter{
